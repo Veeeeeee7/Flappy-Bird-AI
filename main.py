@@ -9,10 +9,10 @@ WIN_WIDTH = 575
 WIN_HEIGHT = 800
 gen = 0
 
-bird_imgs = [pygame.transform.scale2x(pygame.image.load("C:\\Users\\helen\\Desktop\\Flappy Bird AI\\imgs\\bird1.png")), pygame.transform.scale2x(pygame.image.load("C:\\Users\\helen\\Desktop\\Flappy Bird AI\\imgs\\bird2.png")), pygame.transform.scale2x(pygame.image.load("C:\\Users\\helen\\Desktop\\Flappy Bird AI\\imgs\\bird3.png"))]
-pipe_img = pygame.transform.scale2x(pygame.image.load("C:\\Users\\helen\\Desktop\\Flappy Bird AI\\imgs\\pipe.png"))
-base_img = pygame.transform.scale2x(pygame.image.load("C:\\Users\\helen\\Desktop\\Flappy Bird AI\\imgs\\base.png"))
-background_img = pygame.transform.scale2x(pygame.image.load("C:\\Users\\helen\\Desktop\\Flappy Bird AI\\imgs\\bg.png"))
+bird_imgs = [pygame.transform.scale2x(pygame.image.load(os.path.dirname(__file__) + "\\imgs\\bird1.png")), pygame.transform.scale2x(pygame.image.load(os.path.dirname(__file__) + "\\imgs\\bird2.png")), pygame.transform.scale2x(pygame.image.load(os.path.dirname(__file__) + "\\imgs\\bird3.png"))]
+pipe_img = pygame.transform.scale2x(pygame.image.load(os.path.dirname(__file__) + "\\imgs\\pipe.png"))
+base_img = pygame.transform.scale2x(pygame.image.load(os.path.dirname(__file__) + "\\imgs\\base.png"))
+background_img = pygame.transform.scale2x(pygame.image.load(os.path.dirname(__file__) + "\\imgs\\bg.png"))
 
 stat_font = pygame.font.SysFont("comicsans", 50,)
 
